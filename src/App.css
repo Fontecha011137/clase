@@ -1,0 +1,27 @@
+/* Contenedor principal centrado en toda la pantalla */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+ 
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Centra horizontal */
+  align-items: center;     /* Centra vertical */
+  background-color: #f0f0f0; /* Puedes cambiar el fondo si quieres */
+  height: 100vh; /* Altura total de la ventana */
+   background-color: aqua;
+  color: blue;
+}
+
+.ahorcado-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
